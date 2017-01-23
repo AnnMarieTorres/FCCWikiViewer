@@ -15,6 +15,7 @@ $(document).ready(function(){
 				// gets the heading console.log(data[1][0]);
 				// gets the description console.log(data[2][0]);
 				// gets the link console.log(data[3][0]);
+				$('#results').html('');
 				for(var x = 0; x<data[1].length;x++){
 					$('#results').prepend("<li><a href='"+data[3][x]+"' target='blank'>"+data[1][x]+"</a><p>"+data[2][x]+"</p></li>");
 				}
