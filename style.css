@@ -1,0 +1,35 @@
+.header{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	margin: 10px 10px 0 10px;
+}
+
+.header img{
+	max-height: 200px;
+	max-width: auto;
+}
+.random{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 15px 0 15px 0;
+}
+.random img{
+	min-height: 75px;
+	min-width: auto;
+}
+.search{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 15px 0 15px 0;
+}
+.row{
+	display: flex;
+	flex-direction: row;
+	margin: 15px 0 15px 0;
+}
+.results{
+	margin: 10px 15px 0 15px;
+}
